@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace Zoo.Classes
-{
-   abstract class Reptiles : Animals
+{  
+    //allows for inheritence  child = Reptiles : parent = Animals
+    abstract class Reptiles : Animals
    {
         public override string Hair { get; set; } 
 
