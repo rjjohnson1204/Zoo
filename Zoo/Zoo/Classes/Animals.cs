@@ -9,8 +9,8 @@ namespace Zoo.Classes
         {   // properties of animals
             public abstract int Legs { get; set; }
             public abstract int Teeth { get; set; }
-            public virtual bool Hair { get; set; }
-            public virtual bool Horns { get; set; }
+            public virtual string Hair { get; set; }
+            public virtual string Horns { get; set; }
             
         //methods of animals
             public abstract void Eat();
