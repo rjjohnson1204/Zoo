@@ -11,6 +11,14 @@ namespace Zoo.Classes
         public override int Teeth { get; set; } = 0;
         public override string Horns { get; set; } = "none";
 
+        public override void Sleep()
+        {
 
+        }
+        public override void Eat()
+        {
+
+        }
     }
+
 }

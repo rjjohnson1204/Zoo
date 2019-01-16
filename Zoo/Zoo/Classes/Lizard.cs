@@ -8,7 +8,16 @@ namespace Zoo.Classes
 
     abstract class Lizard : Reptiles 
     {
-        public override int Legs { get; set; } = 2;
+        public override int Legs { get; set; } = 4;
 
+        public override void Sleep()
+        {
+
+        }
+        public override void Eat()
+        {
+
+        }
     }
+
 }
