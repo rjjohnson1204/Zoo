@@ -13,5 +13,13 @@ namespace Zoo.Classes
         {
             return false;
         }
+        public override void Sleep()
+        {
+
+        }
+        public override void Eat()
+        {
+
+        }
     }
 }
