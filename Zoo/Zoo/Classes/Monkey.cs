@@ -9,6 +9,7 @@ namespace Zoo.Classes
     abstract class Monkey : Mammals
     {
         public override int Legs { get; set; } = 2;
+        public override string Horns { get; set; } = "none";
 
     }
 }
