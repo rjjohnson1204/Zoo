@@ -4,6 +4,8 @@ using System.Text;
 
 namespace Zoo.Classes
 {
+    //allows for inheritence  child = Turtle : parent = Reptiles
+
     abstract class Turtle : Reptiles
     {
         public override int Teeth { get; set; } = 0;
