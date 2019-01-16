@@ -8,6 +8,8 @@ namespace Zoo.Classes
 
     abstract class Monkey : Mammals
     {
+        //changes the value of Legs
+
         public override int Legs { get; set; } = 2;
 
         public override void Sleep()

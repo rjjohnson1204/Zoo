@@ -8,6 +8,8 @@ namespace Zoo.Classes
 
     abstract class Turtle : Reptiles
     {
+        //changes the value of Teeth and Horns
+
         public override int Teeth { get; set; } = 0;
         public override string Horns { get; set; } = "none";
 

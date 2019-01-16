@@ -8,6 +8,8 @@ namespace Zoo.Classes
 
     abstract class Deer : Mammals
     {
+        //changes the value of Legs and Deer can't climb
+
         public override int Legs { get; set; } = 4;
         public override bool Climbs(bool canClimb)
         {

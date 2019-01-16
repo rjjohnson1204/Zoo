@@ -9,6 +9,7 @@ namespace Zoo.Classes
    {
         public override string Hair { get; set; } 
 
+        // method of reptiles
         public virtual bool LaysEggs(bool eggs)
         {
             if (eggs == true)
