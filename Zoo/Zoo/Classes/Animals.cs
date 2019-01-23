@@ -5,7 +5,7 @@ using System.Text;
 namespace Zoo.Classes
 {
         // parent class
-        abstract class Animals
+        public abstract class Animals
         {   // properties of animals
             public abstract int Legs { get; set; }
             public abstract int Teeth { get; set; }

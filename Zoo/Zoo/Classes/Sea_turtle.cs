@@ -6,7 +6,7 @@ namespace Zoo.Classes
 {
     //allows for inheritence  child = Sea_turtle : parent = Turtle
 
-    class Sea_turtle : Turtle
+     public class Sea_turtle : Turtle
     {
         //changes the value of Legs
 

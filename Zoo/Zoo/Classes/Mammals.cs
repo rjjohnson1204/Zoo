@@ -6,7 +6,7 @@ namespace Zoo.Classes
 {
     //allows for inheritence  child = Mammals : parent = Animals
 
-    abstract class Mammals : Animals 
+    public abstract class Mammals : Animals 
         {
         // property of mammals
         //changes the value of teeth

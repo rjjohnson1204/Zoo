@@ -5,7 +5,7 @@ using System.Text;
 namespace Zoo.Classes
 {  
     //allows for inheritence  child = Reptiles : parent = Animals
-    abstract class Reptiles : Animals
+    public abstract class Reptiles : Animals
    {
         public override string Hair { get; set; } 
 
