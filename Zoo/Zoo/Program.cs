@@ -31,12 +31,30 @@ namespace Zoo
             Console.WriteLine(monkey.Swing());
             Console.WriteLine("                        ");
 
+            // new Reindeer
             Reindeer reindeer = new Reindeer();
             Console.WriteLine("                        ");
             Console.WriteLine("         Reindeer    ");
             Console.WriteLine("                        ");
             Console.WriteLine($" I have {reindeer.Legs} legs.");
             Console.WriteLine("                        ");
+
+            //new Deer
+            Elk elk = new Elk();
+            Console.WriteLine("                        ");
+            Console.WriteLine("          Elk    ");
+            Console.WriteLine("                        ");
+            Console.WriteLine($" I have {elk.Legs} legs.");
+            Console.WriteLine("                        ");
+
+            // new sea turtle
+            Sea_turtle turtle = new Sea_turtle();
+            Console.WriteLine("                        ");
+            Console.WriteLine("          Sea Turtle    ");
+            Console.WriteLine("                        ");
+            Console.WriteLine($" I have {turtle.Legs} legs.");
+            Console.WriteLine("                        ");
+
 
 
 
